@@ -1,3 +1,18 @@
 Package: hokey
 Version: 0.0.9000
-
+Title: Play Tiny Interactive Games With Keypress Inputs
+Description: Play in your terminal three small interactive games that require 
+    keypresses as input. A micro-demonstration of the 'keypress' package by 
+    Gábor Csárdi.
+License: MIT + file LICENSE
+URL: https://github.com/co-analysis/hokey
+BugReports: https://github.com/co-analysis/hokey/issues
+Authors@R: 
+    person(given = "Matt",
+           family = "Dray",
+           role = c("aut", "cre"),
+           email = "mattdray@gmail.com")
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    keypress

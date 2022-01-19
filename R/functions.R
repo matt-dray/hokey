@@ -1,4 +1,4 @@
-type_run <- function(n = 5) {
+type <- function(n = 5) {
   
   if (!keypress::has_keypress_support()) {
     stop("{keypress} isn't supported in this terminal.\n")
@@ -48,7 +48,7 @@ type_run <- function(n = 5) {
   
 }
 
-adventure_1d <- function(len = 10) {
+adventure <- function(len = 10) {
   
   if (!keypress::has_keypress_support()) {
     stop("{keypress} isn't supported in this terminal.\n")
@@ -141,7 +141,7 @@ adventure_1d <- function(len = 10) {
   
 }
 
-key_clicker <- function(n = 3) {
+battle <- function(n = 3) {
   
   if (!keypress::has_keypress_support()) {
     stop("{keypress} isn't supported in this terminal.\n")
