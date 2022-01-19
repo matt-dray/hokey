@@ -8,8 +8,12 @@
 
 _Merriam-Webster: 'corny, obviously contrived'._
 
-Play in your terminal three small interactive games that require keypresses as input: `type()`, `adventure()` and `battle()`. 
+Play in your terminal three small interactive games that require keypresses as input: `type()`, `adventure()` and `battle()`. Install with:
+
+``` r
+remotes::install_github("matt-dray/hokey")
+```
 
 A micro-demonstration of [the {keypress} package by Gábor Csárdi](https://github.com/gaborcsardi/keypress).
 
-Run `keypress::has_keypress_support()` to see if your terminal is supported.
+Run `keypress::has_keypress_support()` to see if your terminal is supported. Does not work in RStudio.
